@@ -54,7 +54,7 @@ Note that the variable used as a partial assignment for every network is recorde
 ### Parameter modification
 
 The parameter files for this experiment are stored in `data/params/showcase/` directory.
-For `algalactivity2` network, the parameter file for the variance computation of $\text{Pr}(\text{Chl\_a}=0)$ where the k-th parameter's variance becomes one tenth is `data/params/showcase/algalactivity2.net.cnf.param.<k>`.
+For `algalactivity2` network, the parameter file for the variance computation of $\text{Pr}(\text{Chl\textunderscore a}=0)$ where the k-th parameter's variance becomes one tenth is `data/params/showcase/algalactivity2.net.cnf.param.<k>`.
 Note that there are only 40 parameter files out of 43 parameters for the `algalactivity2` network because 3 parameters have value either 0 or 1 and thus they have zero variance.
 For `blockchain` network, the parameter file for $\text{Pr}(\text{BA}=\text{Low})$ is `data/params/showcase/blockchain.net.cnf.param.<k>`.
 For `projectmanagement` network, the parameter file for $\text{Pr}(\text{O2}=\text{YES})$ is `data/params/showcase/projectmanagement.net.cnf.O2.param.<k>` and that for $\text{Pr}(\text{O4}=\text{YES})$ is `data/params/showcase/projectmanagement.net.cnf.O4.param.<k>`.
@@ -64,7 +64,7 @@ The variance of the marginal where the k-th parameter's variance becomes one ten
 ./main [vtree_file] [sdd_file] [parameter_file]
 ```
 
-_Example:_ To compute the variance of $\text{Pr}(\text{Chl\_a}=0)$ when the 7th parameter ($\text{Pr}(\text{DO}|\text{pH}=0,\text{Te}=0)$) of the `algalactivity2` network becomes one tenth, run:
+_Example:_ To compute the variance of $\text{Pr}(\text{Chl\textunderscore a}=0)$ when the 7th parameter ($\text{Pr}(\text{DO}|\text{pH}=0,\text{Te}=0)$) of the `algalactivity2` network becomes one tenth, run:
 
 ```shell
 ./main ../data/sdd/algalactivity2.net.cnf.vtree ../data/sdd/algalactivity2.net.cnf.sdd ../data/params/showcase/algalactivity2.net.cnf.param.7
