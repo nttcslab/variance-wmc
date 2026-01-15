@@ -1,7 +1,12 @@
 # Variance Computation for Weighted Model Counting with Knowledge Compliation Approach
 
 This repository includes the code and data to reproduce the experimental results in the paper "Variance Computation for Weighted Model Counting with Knowledge Compliation Approach", which is accepted for AAAI 2026.
-The full version of this paper will be announced upon publication on arXiv.
+
+## Paper URL
+
+Published version: TBA
+
+Full version: [arXiv:2601.03523](https://doi.org/10.48550/arXiv.2601.03523)
 
 ## How to build
 
