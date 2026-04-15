@@ -6,7 +6,7 @@ This repository includes the code and data to reproduce the experimental results
 
 Published version:
 
-Kengo Nakamura, Masaaki Nishino, Norihito Yasuda: Variance computation for weighted model counting with knowledge compilation approach. In Proceedings of the 40th 40th Annual AAAI Conference on Artificial Intelligence ([AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)), pp. 19312--19320, 2026. [doi:10.1609/aaai.v40i23.39007](https://doi.org/10.1609/aaai.v40i23.39007)
+Kengo Nakamura, Masaaki Nishino, Norihito Yasuda: Variance computation for weighted model counting with knowledge compilation approach. In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence ([AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)), pp. 19312--19320, 2026. [doi:10.1609/aaai.v40i23.39007](https://doi.org/10.1609/aaai.v40i23.39007)
 
 Full version: [arXiv:2601.03523](https://doi.org/10.48550/arXiv.2601.03523)
 
